@@ -206,7 +206,10 @@ print(logfc(89,12,5))
 print(logfc(89,12))
 ```
 
-**PRACTICE**: Write a function to calculate the Fibonacci numbers given a maximum. Return a list of Fibonacci numbers below that max.
+**PRACTICE**: Write a function to calculate the Fibonacci numbers given a maximum value. Return a list of Fibonacci numbers below that value.
+
+For example, if the max is 100, the return value from the function should be:
+[1,1,2,3,5,8,13,21,34,55,89]
 
 
 # File Handling
