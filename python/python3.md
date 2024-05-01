@@ -79,7 +79,7 @@ if (diffexp > 0 and diffexp < 50):
         print("It's significant!")
 ```
 
-**PRACTICE**: Imagine a gene expression dictionary like the one from the Dictionary section, except arbitrary keys and expression values. Write an if statement (or statements) that do the following:
+**PRACTICE**: Imagine a gene expression dictionary (or create one) like the one from the Dictionary section, except arbitrary keys and expression values. Write an if statement (or statements) that do the following:
 * if both SYF2 and FBX04 exist in the dictionary and both are upregulated (i.e. values > 0), then print "GO:1"
 * Otherwise, if ATF2 does not exist in the dictionary or PLK1 exists and is downregulated (i.e. value < 0), then print "GO:2"
 * Otherwise, if HUS1B exists and HUS1B is downregulated or SYF2 does not exist, then print "GO:3"
@@ -161,7 +161,7 @@ for id in gene_list:
     print(id + " is a gene of interest")
 ```
 
-**PRACTICE**: Using your personnel dictionary (from the Dictionary section practice), use a single loop to print out all of the information for all of the employees. Using the gene expression dictionary (from the Dictionary section practice), use multiple nested loops to print out all of the expression values individually for each sample.
+**PRACTICE**: Using your personnel dictionary (from the Dictionary practice), use a single loop to print out all of the information for all of the employees. Using the gene expression dictionary (from the Dictionary practice), use multiple nested loops to print out all of the expression values individually for each sample.
 
 # Functions
 

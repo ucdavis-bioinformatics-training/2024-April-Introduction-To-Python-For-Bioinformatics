@@ -108,6 +108,10 @@ print(1==1)
 print("Does 0 equal 1?")
 print(0==1)
 
+# not equals
+print("Is 2 not equal to 7?")
+print(2 != 7)
+
 # You can also do string comparisons
 gene_id = "BRCA2"
 hw = "HELLO!!! WORLD!!!"
