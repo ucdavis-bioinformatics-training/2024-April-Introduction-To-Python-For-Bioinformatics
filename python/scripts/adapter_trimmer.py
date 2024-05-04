@@ -49,3 +49,5 @@ for record in SeqIO.parse(args.infile, "fastq"):
         la['phred_quality'] = la['phred_quality'][0:pos]
         sr = SeqRecord(Seq(record.seq[0:pos]), id=record.id, letter_annotations=la)
         SeqIO.write(sr, fp, "fastq")
+
+fp.close()

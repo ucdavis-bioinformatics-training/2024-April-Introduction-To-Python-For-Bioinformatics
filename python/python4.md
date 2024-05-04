@@ -92,3 +92,4 @@ Hints:
 2. Change the code so that it uses the **args.infile**, **args.outfile**, and **args.qual_threshold** variables instead of the input file, output file, and the quality threshold.
 3. After trimming a read, check the length against the length threshold. Only write out records (4 lines) that are greater than or equal to the threshold.
 4. Test the code in the terminal with various arguments and see the differences in the output.
+5. Make sure to save your code after making changes.
